@@ -12,7 +12,7 @@ export default function Home() {
 
       <section className="mt-16 rounded-2xl border p-8 shadow-sm">
         <h2 className="text-2xl font-semibold">Featured: The Chosen Project — Book One</h2>
-        <p className="mt-2 text-gray-700 italic">“Exile is not the end. It is the beginning.”</p>
+        <p className="mt-2 text-gray-700 italic">"Exile is not the end. It is the beginning."</p>
         <p className="mt-4 text-gray-700">
           <span className="font-medium">Enoch’s Truth and Exile</span> opens The Chosen Project — a testament to lineage,
           sovereignty, and bonds that endure beyond exile.
@@ -49,3 +49,12 @@ export default function Home() {
       </section>
 
       <footer className="mt-24 border-t pt-6 text-sm text-gray-600 flex items-center justify-between">
+        <div>© 2025 Action. All rights reserved.</div>
+        <div className="space-x-4">
+          <a href="/press" className="underline">Press</a>
+          <a href="#about" className="underline">About</a>
+        </div>
+      </footer>
+    </main>
+  );
+}
